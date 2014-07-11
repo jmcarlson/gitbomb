@@ -1,0 +1,38 @@
+.container {
+	height: 600px;
+}
+
+.icon {
+	font-size: 90px;
+	/*display: inline-block;*/
+}
+
+.sky {
+	height: 75%;
+	position: relative;
+	opacity: 0.5;
+	background: linear-gradient(#33CCFF, white);
+}
+
+.earth {
+	height: 25%;
+	background-color: #663300;
+	opacity: 0.9;
+}
+
+#penguin {
+	position: absolute;
+	/*bottom: 0;*/
+	top: 354px;
+	left: 10px;
+}
+
+.bird {
+	position: absolute;
+}
+
+.flock {
+	display: inline-block;
+	position: absolute;
+	height: 50px;
+}
